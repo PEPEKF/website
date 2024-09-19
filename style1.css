@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; 
+}
+
+
+.header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 40px 20px; 
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 10px; 
+}
+
+.header p {
+    font-size: 1.2rem; 
+    margin: 0;
+}
+
+img {
+    margin: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.zoznam {
+    text-align: center;
+    color: #ff7e5f; 
+    border-bottom: solid #feb47b;
+    margin-bottom: 40px;
+}
+
+.List {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none; 
+    font-size: 1.2rem;
+}
+
+.List li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.postup H2 {
+    text-align: center;
+    color: #ff7e5f; 
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border-bottom: solid #feb47b;
+    padding-bottom: 15px;
+}
+
+.postup H3, li {
+    text-align: center;
+}
+
+.postup li{
+padding: 5px;
+}
+
+.postup {
+    margin-bottom: 100px;
+}
+
+.DCH {
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    color:#ff7e5f ;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 12px 25px; 
+    border-radius: 30px; 
+    background: #ff7e5f; 
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 126, 95, 0.4); 
+}
+
+
+.controls {
+    text-align: center;
+    margin: 40px 0; 
+}
+
+.btn:hover {
+    background: #feb47b;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.jedla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ranajky, .obed, .vecera {
+    width: 33%;
+    font-size: 60px;
+    text-align: center;
+    color: #ff7e5f;
+    border-bottom: 2px solid #ff7e5f;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.linkyyy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.prvy, .druhy, .treti{
+    width: 65%;
+    text-align: center;
+}
+
+.meno {
+    color: #ff7e5f;
+    padding-top: 60px;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-bottom: 2px solid #ff7e5f;
+}
+
+.BorderButton {
+    border-bottom: 2px solid #ff7e5f;
+}
+
+.footer {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 20px; 
+    text-align: center;
+    color: white;
+    .btn {
+        padding: 12px 25px; 
+        border-radius: 30px; 
+        background: #fff8f6; 
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 15px rgba(255, 228, 221, 0.4); 
+        margin-bottom: 90%;
+    }
+    .btn:hover {
+        background: #ffe4cf;
+    }
+}
